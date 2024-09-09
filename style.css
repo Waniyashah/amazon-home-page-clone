@@ -1,0 +1,364 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box; /* This should be box-sizing, not border */
+}
+
+.navbar {
+    background-color: #0f1111;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-evenly;
+}
+/* box1 */
+.nav-logo {
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    background-image: url("logoo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+
+#logo:hover {
+    border-color: white; /* Border turns white on hover */
+}
+/* box2 */
+.nav-line1{
+    color: #ccc;
+    margin-left: 15px;
+}
+.nav-line2{
+  margin-left: 3px;
+
+}
+.icon{
+    display: flex;
+
+}
+/* box3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    height: 35px;
+    width: 620px;
+    background-color: #ccc;
+    border-radius: 4px;
+}
+.search-select{
+    border-radius: 4px;
+    background-color: #f3f3f3;
+    text-align: center;
+    width: 50px;
+    border: none;
+}
+.search-holder{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.nav-search:hover{
+border: 2px solid orange;
+}
+.search-icon{
+    width: 45px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color:#0f1111
+}
+/* box4 */
+.language{
+    display: flex;
+    margin: 0;
+}
+.lang-input{
+    height: 21px;
+}
+/* box5 */
+span{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-second{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.nav-cart{
+    display: flex;
+
+}
+.nav-cart i{
+    font-size: 26px;
+}
+.text{
+    font-size: 0.85rem;
+    height: 1px;
+    font-weight: 700;
+}
+/* panel */
+.panel{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+}
+.panel-ops p{
+    display: inline;
+   margin-left: 15px;
+    font-size: 0.85rem;
+}
+.panel-ops{
+    display: flex;
+    width: 70%;
+    font-size: 0.85rem;
+    font-weight: 500px;
+}
+.panel-shop{
+    font-size: 15px;
+    font-weight: 700;
+}
+/* hero section */
+.hero-section{
+    background-image: url(amazon\ home\ image.jpg);
+    background-size: cover;
+    height: 400px;
+}
+/* shop-section */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #ddf542;
+}
+.box{
+    height: 390px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-bottom: 20px;
+}
+/* box1 */
+.box1-img{
+    height:300px ;
+    background-size: cover;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box1-content p{
+    display: flex;
+    color: #007185;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.box1-content h2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+/* BOX2 */
+.box2-img{
+    height:300px ;
+    background-size: cover;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box2-content p{
+    display: flex;
+    color: #007185;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.box2-content h2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+/* box3 */
+.box3-img{
+    height:300px ;
+    background-size: cover;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box3-content p{
+    display: flex;
+    color: #007185;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.box3-content h2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+/* box4 */
+.box4-img{
+    height:300px ;
+    background-size: cover;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box4-content p{
+    display: flex;
+    color: #007185;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.box4-content h2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+/* box5 */
+.box5-img{
+    height:300px ;
+    background-size: cover;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box5-content p{
+    display: flex;
+    color: #007185;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.box5-content h2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+/* box6 */
+.box6-img{
+    height:300px ;
+    background-size: cover;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box6-content p{
+    display: flex;
+    color: #007185;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.box6-content h2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+/* box7 */
+.box7-img{
+    height:300px ;
+    background-size: cover;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box7-content p{
+    display: flex;
+    color: #007185;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.box7-content h2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+/* box8 */
+.box8-img{
+    height:300px ;
+    background-size: cover;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box8-content p{
+    display: flex;
+    color: #007185;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.box8-content h2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.footer-1{
+    height: 50px;
+    background-color: #37465c;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer-2{
+    height: 400px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 15px;
+
+}
+ul p{
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+.footer-3{
+    height: 70px;
+    width: 1342px;
+    background-color:#232f3e ;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url("newlogo.jpg");
+    height: 30px;
+    width: 76px;
+    background-size: cover;
+}
+.footer-4{
+    height: 80px;
+    width: 1342px;
+    background-color: #131a22;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
